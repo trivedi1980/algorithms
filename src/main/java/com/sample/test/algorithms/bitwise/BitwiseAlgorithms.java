@@ -13,4 +13,13 @@ public class BitwiseAlgorithms {
     public static int getParity(int number) {
         return (countBits(number) & 1) == 0 ? 0 : 1;
     }
+
+    public static int swapBits(int number, int i, int j) {
+        // first check if ith and jth bit are same or diff
+        if (((number >>> i) & 1) != ((number >>> j) & 1)) {
+            int mask = (1 << i) | (1 << j);
+            number ^= mask;
+        }
+        return number;
+    }
 }
