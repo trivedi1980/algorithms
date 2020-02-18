@@ -23,4 +23,22 @@ public class BitwiseAlgorithmsTest {
         Assert.assertEquals(3, BitwiseAlgorithms.swapBits(9, 1, 3));
         Assert.assertEquals(9, BitwiseAlgorithms.swapBits(9, 0, 3));
     }
+
+    @Test
+    public void testInverseBits() {
+        Assert.assertEquals(964176192, BitwiseAlgorithms.reverseBits(43261596));
+        Assert.assertEquals(3221225471L, BitwiseAlgorithms.reverseBits(4294967293L));
+    }
+
+    @Test
+    public void testClosestWeight() {
+        Assert.assertEquals(5, BitwiseAlgorithms.closestIntegerWithSameWeight(6));
+        Assert.assertEquals(11, BitwiseAlgorithms.closestIntegerWithSameWeight(7));
+    }
+
+    @Test
+    public void testClosestWeight2() {
+        Assert.assertEquals(5, BitwiseAlgorithms.closestIntegerWithSameWeight2(6));
+        Assert.assertEquals(11, BitwiseAlgorithms.closestIntegerWithSameWeight2(7));
+    }
 }
