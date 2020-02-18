@@ -9,7 +9,7 @@
         <module name="algorithms" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
       <module name="algorithms" target="1.7" />
     </bytecodeTargetLevel>
   </component>

@@ -41,4 +41,10 @@ public class BitwiseAlgorithmsTest {
         Assert.assertEquals(5, BitwiseAlgorithms.closestIntegerWithSameWeight2(6));
         Assert.assertEquals(11, BitwiseAlgorithms.closestIntegerWithSameWeight2(7));
     }
+
+    @Test
+    public void testMultiplication() {
+        Assert.assertEquals(30, BitwiseAlgorithms.computeProduct( 5, 6));
+        Assert.assertEquals(117, BitwiseAlgorithms.computeProduct( 13, 9));
+    }
 }
