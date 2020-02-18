@@ -51,4 +51,26 @@ public class BitwiseAlgorithms {
         }
         return number;
     }
+
+    public static int computeProduct(int x, int y) {
+        int sum = 0;
+
+        while (x != 0) {
+            if ((x & 1) != 0) {
+                sum = add(sum, y);
+            }
+            x = x >>> 1;
+            y = y << 1;
+        }
+        return sum;
+    }
+
+    private static int add(int sum, int y) {
+        while (y != 0) {
+            int carry = sum & y;
+            sum = sum ^ y;
+            y = carry << 1;
+        }
+        return sum;
+    }
 }
