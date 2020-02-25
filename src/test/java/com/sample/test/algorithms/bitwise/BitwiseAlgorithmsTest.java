@@ -47,4 +47,16 @@ public class BitwiseAlgorithmsTest {
         Assert.assertEquals(30, BitwiseAlgorithms.computeProduct( 5, 6));
         Assert.assertEquals(117, BitwiseAlgorithms.computeProduct( 13, 9));
     }
+
+    @Test
+    public void testDivison() {
+        Assert.assertEquals(2, BitwiseAlgorithms.division(10,
+                5));
+    }
+
+    @Test
+    public void testPower() {
+        Assert.assertEquals(32, BitwiseAlgorithms.power(2,
+                5));
+    }
 }
