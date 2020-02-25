@@ -65,6 +65,33 @@ public class BitwiseAlgorithms {
         return sum;
     }
 
+    public static int division(int x, int y) {
+        int result = 0;
+        long power = ((long)1 << 32);
+        while (x > y) {
+            while (power * y > x) {
+                power = (power >>> 1);
+            }
+            x = x - (int)power  * y;
+            result = result + (int)power;
+        }
+        return result;
+    }
+
+    public static int power(int x, int y) {
+        int result = 1;
+        int power = y;
+
+        while (power != 0) {
+            if ((power & 1) != 0) {
+                result = result * x;
+            }
+            power = power >>> 1;
+            x = x * x;
+        }
+        return result;
+    }
+
     private static int add(int sum, int y) {
         while (y != 0) {
             int carry = sum & y;
