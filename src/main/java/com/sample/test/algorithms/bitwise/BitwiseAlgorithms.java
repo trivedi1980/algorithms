@@ -92,6 +92,15 @@ public class BitwiseAlgorithms {
         return result;
     }
 
+    public static int reverse(int x) {
+        int result = 0;
+        while (x != 0) {
+            result = result * 10 + (x % 10);
+            x = x/10;
+        }
+        return result;
+    }
+
     private static int add(int sum, int y) {
         while (y != 0) {
             int carry = sum & y;
