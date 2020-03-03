@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3232c1f6-1b2d-44a1-b218-19d73b26b798" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/test/algorithms/ArrayAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/test/algorithms/ArrayAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java" afterDir="false" />
     </list>
@@ -47,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayAlgorithmsTest.testDutchFlagSeparation">
+  <component name="RunManager" selected="JUnit.ArrayAlgorithmsTest.testDutchFlagSeparation2">
     <configuration name="ArrayAlgorithmsTest.testDutchFlagSeparation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
@@ -59,6 +58,22 @@
       <option name="PACKAGE_NAME" value="com.sample.test.algorithms" />
       <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.ArrayAlgorithmsTest" />
       <option name="METHOD_NAME" value="testDutchFlagSeparation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayAlgorithmsTest.testDutchFlagSeparation2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.test.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.test.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.ArrayAlgorithmsTest" />
+      <option name="METHOD_NAME" value="testDutchFlagSeparation2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,22 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitwiseAlgorithmsTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.test.algorithms.bitwise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sample.test.algorithms.bitwise" />
-      <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.bitwise.BitwiseAlgorithmsTest" />
-      <option name="METHOD_NAME" value="testMultiplication" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BitwiseAlgorithmsTest.testPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayAlgorithmsTest.testDutchFlagSeparation2" />
         <item itemvalue="JUnit.ArrayAlgorithmsTest.testDutchFlagSeparation" />
         <item itemvalue="JUnit.ArrayAlgorithmsTest.testOddEvenArrange" />
         <item itemvalue="JUnit.BitwiseAlgorithmsTest.testPower" />
         <item itemvalue="JUnit.BitwiseAlgorithmsTest.testDivison" />
-        <item itemvalue="JUnit.BitwiseAlgorithmsTest.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581738694662</updated>
       <workItem from="1581738698223" duration="18656000" />
-      <workItem from="1583204389673" duration="2590000" />
+      <workItem from="1583204389673" duration="3472000" />
     </task>
     <task id="LOCAL-00001" summary="added bitwise algorithms">
       <created>1581740770099</created>
@@ -233,6 +232,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
