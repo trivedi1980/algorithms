@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3232c1f6-1b2d-44a1-b218-19d73b26b798" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/test/algorithms/ArrayAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/test/algorithms/bitwise/BitwiseAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/test/algorithms/bitwise/BitwiseAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/bitwise/BitwiseAlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/bitwise/BitwiseAlgorithmsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,18 +48,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BitwiseAlgorithmsTest.testPower">
-    <configuration name="BitwiseAlgorithmsTest.testClosestWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayAlgorithmsTest.testOddEvenArrange">
+    <configuration name="ArrayAlgorithmsTest.testOddEvenArrange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.test.algorithms.bitwise.*" />
+          <option name="PATTERN" value="com.sample.test.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sample.test.algorithms.bitwise" />
-      <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.bitwise.BitwiseAlgorithmsTest" />
-      <option name="METHOD_NAME" value="testClosestWeight" />
+      <option name="PACKAGE_NAME" value="com.sample.test.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.ArrayAlgorithmsTest" />
+      <option name="METHOD_NAME" value="testOddEvenArrange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayAlgorithmsTest.testOddEvenArrange" />
         <item itemvalue="JUnit.BitwiseAlgorithmsTest.testPower" />
         <item itemvalue="JUnit.BitwiseAlgorithmsTest.testDivison" />
         <item itemvalue="JUnit.BitwiseAlgorithmsTest.testMultiplication" />
         <item itemvalue="JUnit.BitwiseAlgorithmsTest.testClosestWeight2" />
-        <item itemvalue="JUnit.BitwiseAlgorithmsTest.testClosestWeight" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581738694662</updated>
-      <workItem from="1581738698223" duration="16453000" />
+      <workItem from="1581738698223" duration="18656000" />
+      <workItem from="1583204389673" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="added bitwise algorithms">
       <created>1581740770099</created>
@@ -168,7 +170,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -213,13 +217,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sample/test/algorithms/bitwise/BitwiseAlgorithms.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="13" />
+          <line>74</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sample/test/algorithms/bitwise/BitwiseAlgorithms.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="14" />
+          <line>81</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
