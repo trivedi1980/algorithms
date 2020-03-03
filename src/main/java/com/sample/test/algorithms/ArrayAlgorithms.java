@@ -1,33 +1,24 @@
 package com.sample.test.algorithms;
 
 public class ArrayAlgorithms {
-    public static void dutchFlagSeparation(int[] array, int pivotIndex) {
-        // first pass to move smaller elements to before the pivot element
+    public static void dutchFlagSeparation2(int[] array, int pivotIndex) {
         int pivot = array[pivotIndex];
-
-        boolean swapDone = false;
+        // first pass to move smaller elements before the pivot element
+        int smallerIndex = 0;
         for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[j] < pivot) {
-                    swap(array, i, j);
-                    swapDone = true;
-                    break;
-                }
+            if (array[i] < pivot) {
+                swap(array, smallerIndex, i);
+                smallerIndex++;
             }
-            if (!swapDone) break;
         }
 
-        swapDone = false;
-        // second pass to move larger elements after the pivot element
+        // second pass to move larger elements after pivot element
+        int largerIndex = array.length - 1;
         for (int i = array.length - 1; i >= 0; i--) {
-            for(int j = i - 1; j >=0; j--) {
-                if (array[j] > pivot) {
-                    swap(array, i, j);
-                    swapDone = true;
-                    break;
-                }
+            if (array[i] > pivot) {
+                swap(array, i, largerIndex);
+                largerIndex--;
             }
-            if (!swapDone) break;
         }
     }
 
