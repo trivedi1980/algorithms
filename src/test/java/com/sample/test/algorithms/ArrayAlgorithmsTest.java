@@ -27,4 +27,13 @@ public class ArrayAlgorithmsTest {
         Assert.assertEquals(4, array[4]);
         Assert.assertEquals(5, array[5]);
     }
+
+    @Test
+    public void testFourPartitions() {
+        int[] array = new int[] {1,2,3,4,1,2,3,4,1,2,3,4};
+        ArrayAlgorithms.arrayPartition4(array);
+        Assert.assertEquals(1, array[0]);
+        Assert.assertEquals(1, array[1]);
+        Assert.assertEquals(1, array[2]);
+    }
 }
