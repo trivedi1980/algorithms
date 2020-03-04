@@ -36,4 +36,10 @@ public class ArrayAlgorithmsTest {
         Assert.assertEquals(1, array[1]);
         Assert.assertEquals(1, array[2]);
     }
+
+    @Test
+    public void testAddOne() {
+        int[] array = new int[] { 9 };
+        array = ArrayAlgorithms.addOne(array);
+    }
 }
