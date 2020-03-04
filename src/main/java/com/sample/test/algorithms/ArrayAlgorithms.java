@@ -1,6 +1,23 @@
 package com.sample.test.algorithms;
 
 public class ArrayAlgorithms {
+    public static void arrayPartition4(int[] array) {
+        int index = arrangePivot(array, array[0], 0, array.length);
+        index = arrangePivot(array, array[index], index, array.length);
+        index = arrangePivot(array, array[index], index, array.length);
+        index = arrangePivot(array, array[index], index, array.length);
+    }
+
+    private static int arrangePivot(int[] array, int pivot, int start, int end) {
+        int index = start;
+        for (int i = start; i < end; i++) {
+            if (array[i] == pivot) {
+                swap(array, i, index++);
+            }
+        }
+        return index;
+    }
+
     public static void dutchFlagSeparation2(int[] array, int pivotIndex) {
         int pivot = array[pivotIndex];
         // first pass to move smaller elements before the pivot element
