@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ArrayAlgorithmsTest {
+
     @Test
     public void testOddEvenArrange() {
         int[] array = new int[] { 1, 2, 4, 5, 0};
@@ -35,5 +36,24 @@ public class ArrayAlgorithmsTest {
         Assert.assertEquals(1, array[0]);
         Assert.assertEquals(1, array[1]);
         Assert.assertEquals(1, array[2]);
+    }
+
+    @Test
+    public void testAddOne() {
+        int[] array = new int[] { 9 };
+        array = ArrayAlgorithms.addOne(array);
+    }
+
+    @Test
+    public void testMultiplication() {
+        int[] one = new int[] {1, 3};
+        int[] two = new int[] { 6 };
+        int[] result = ArrayAlgorithms.multiplication(one, two);
+    }
+
+    @Test
+    public void testNavigation() {
+        int[] one = new int[] {3, 3, 1, 0, 2, 0, 1};
+        Assert.assertTrue(ArrayAlgorithms.navigation(one));
     }
 }

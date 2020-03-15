@@ -1,6 +1,46 @@
 package com.sample.test.algorithms;
 
 public class ArrayAlgorithms {
+    public static boolean navigation(int[] array) {
+        int farthestIndex = 0;
+        for (int i = 0; i <= farthestIndex && farthestIndex <= array.length; i++) {
+            farthestIndex = Math.max(farthestIndex, i + array[0]);
+        }
+        return farthestIndex >= array.length;
+    }
+
+    public static int[] multiplication (int[] one, int[] two) {
+        int[] result = new int[one.length + two.length];
+
+        for (int i = one.length - 1; i >= 0; i--) {
+            for (int j = two.length - 1; j >= 0; j--) {
+                result[i + j + 1] = result[i + j + 1] + (one[i] * two[j]);
+                result[i + j] = result[i + j] + (result[i + j + 1] / 10);
+                result[i + j + 1] =  result[i + j + 1] % 10;
+            }
+        }
+        return result;
+    }
+
+    public static int[] addOne(int[] digits) {
+        int carry = 1;
+        for (int i = digits.length - 1; i >= 0; i--) {
+            int temp = digits[i] + carry;
+            digits[i] = (temp) % 10;
+            carry = (temp) / 10;
+            if (carry == 0) break;
+        }
+        if (carry > 0) {
+            int[] result = new int[digits.length + 1];
+            for (int i = 0; i < digits.length; i++) {
+                result[i+1] = digits[i];
+            }
+            result[0] = carry;
+            return result;
+        }
+        return digits;
+    }
+
     public static void arrayPartition4(int[] array) {
         int index = arrangePivot(array, array[0], 0, array.length);
         index = arrangePivot(array, array[index], index, array.length);

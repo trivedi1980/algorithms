@@ -47,8 +47,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayAlgorithmsTest.testFourPartitions">
-    <configuration name="ArrayAlgorithmsTest.testDutchFlagSeparation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayAlgorithmsTest.testNavigation">
+    <configuration name="ArrayAlgorithmsTest.testAddOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -58,7 +58,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sample.test.algorithms" />
       <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.ArrayAlgorithmsTest" />
-      <option name="METHOD_NAME" value="testDutchFlagSeparation" />
+      <option name="METHOD_NAME" value="testAddOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayAlgorithmsTest.testOddEvenArrange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayAlgorithmsTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -106,23 +106,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sample.test.algorithms" />
       <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.ArrayAlgorithmsTest" />
-      <option name="METHOD_NAME" value="testOddEvenArrange" />
+      <option name="METHOD_NAME" value="testMultiplication" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitwiseAlgorithmsTest.testPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayAlgorithmsTest.testNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.test.algorithms.bitwise.*" />
+          <option name="PATTERN" value="com.sample.test.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sample.test.algorithms.bitwise" />
-      <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.bitwise.BitwiseAlgorithmsTest" />
-      <option name="METHOD_NAME" value="testPower" />
+      <option name="PACKAGE_NAME" value="com.sample.test.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.test.algorithms.ArrayAlgorithmsTest" />
+      <option name="METHOD_NAME" value="testNavigation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayAlgorithmsTest.testNavigation" />
+        <item itemvalue="JUnit.ArrayAlgorithmsTest.testMultiplication" />
+        <item itemvalue="JUnit.ArrayAlgorithmsTest.testAddOne" />
         <item itemvalue="JUnit.ArrayAlgorithmsTest.testFourPartitions" />
         <item itemvalue="JUnit.ArrayAlgorithmsTest.testDutchFlagSeparation2" />
-        <item itemvalue="JUnit.ArrayAlgorithmsTest.testDutchFlagSeparation" />
-        <item itemvalue="JUnit.ArrayAlgorithmsTest.testOddEvenArrange" />
-        <item itemvalue="JUnit.BitwiseAlgorithmsTest.testPower" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581738694662</updated>
       <workItem from="1581738698223" duration="18656000" />
-      <workItem from="1583204389673" duration="5313000" />
+      <workItem from="1583204389673" duration="10512000" />
     </task>
     <task id="LOCAL-00001" summary="added bitwise algorithms">
       <created>1581740770099</created>
@@ -226,18 +226,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java</url>
-          <line>21</line>
+          <line>22</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/test/algorithms/ArrayAlgorithmsTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/test/algorithms/ArrayAlgorithms.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
