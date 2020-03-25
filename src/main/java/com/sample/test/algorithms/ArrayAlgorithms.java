@@ -1,6 +1,37 @@
 package com.sample.test.algorithms;
 
 public class ArrayAlgorithms {
+    public static int[] removeDuplicates(int[] array) {
+        int i = 0;
+        for (int j = i + 1; j < array.length; j++) {
+            if (array[i] != array[j]) {
+                i++;
+                array[i] = array[j];
+            } else {
+                continue;
+            }
+        }
+
+        int[] array2 = new int[i + 1];
+        for (int j = 0; j < array2.length; j++) {
+            array2[j] = array[j];
+        }
+        return array2;
+    }
+
+    public static int removeDuplicates(int[] array, int item) {
+        int index = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == item) {
+                continue;
+            } else {
+                array[index] = array[i];
+                index++;
+            }
+        }
+        return index;
+    }
+
     public static boolean navigation(int[] array) {
         int farthestIndex = 0;
         for (int i = 0; i <= farthestIndex && farthestIndex <= array.length; i++) {

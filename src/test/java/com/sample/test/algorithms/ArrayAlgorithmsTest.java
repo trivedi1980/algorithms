@@ -56,4 +56,38 @@ public class ArrayAlgorithmsTest {
         int[] one = new int[] {3, 3, 1, 0, 2, 0, 1};
         Assert.assertTrue(ArrayAlgorithms.navigation(one));
     }
+
+    @Test
+    public void testDuplicateRemove() {
+        int[] array = new int[] { 2, 2, 3, 5, 5, 5, 7, 7, 8 };
+        int[] result = ArrayAlgorithms.removeDuplicates(array);
+        Assert.assertEquals(2, result[0]);
+        Assert.assertEquals(3, result[1]);
+        Assert.assertEquals(5, result[2]);
+        Assert.assertEquals(7, result[3]);
+        Assert.assertEquals(8, result[4]);
+    }
+
+    @Test
+    public void testDuplicateRemove2() {
+        int[] array = new int[] { 2, 3, 5, 5, 5, 7, 7, 8 };
+        int[] result = ArrayAlgorithms.removeDuplicates(array);
+        Assert.assertEquals(2, result[0]);
+        Assert.assertEquals(3, result[1]);
+        Assert.assertEquals(5, result[2]);
+        Assert.assertEquals(7, result[3]);
+        Assert.assertEquals(8, result[4]);
+    }
+
+    @Test
+    public void testDuplicateRemove3() {
+        int[] array = new int[] { 2, 3, 5, 5, 5, 7, 7, 8 };
+        int result = ArrayAlgorithms.removeDuplicates(array, 5);
+        Assert.assertEquals(2, array[0]);
+        Assert.assertEquals(3, array[1]);
+        Assert.assertEquals(7, array[2]);
+        Assert.assertEquals(7, array[3]);
+        Assert.assertEquals(8, array[4]);
+        Assert.assertEquals(5, result);
+    }
 }
